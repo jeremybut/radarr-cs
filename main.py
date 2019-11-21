@@ -27,7 +27,7 @@ def _argparse():
     parser.add_argument(
         '--tmdb-key', '-tk',
         help='TMDB API Key, register app on tmdb to obtain API Key'
-    )
+    ) 
     args = parser.parse_args()
     return args
 

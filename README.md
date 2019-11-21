@@ -13,7 +13,7 @@ git clone https://gitlab.com/buttice.j/radarr-cs.git
 ## Usage
 
 **Go to `radarr` > `Settings` > `Connect` > `Add Custom script`**
- 
+
 > Name `Named this script`
 
 > On Grab `no`
@@ -26,19 +26,22 @@ git clone https://gitlab.com/buttice.j/radarr-cs.git
 
 > Path `/where-the-script-is/main.py`
 
-> Arguments `-wu https://hooks.slack.com/services/xxx/xxx/xxx -re http://localhost:8310/api -rk 8xxxxxxxxxxxxxxxxc -tk fxxxxxxxxxxxxxxxxxxxxxxxxxx5`
+> Arguments `-wu https://hooks.slack.com/services/xxx/xxx/xxx -re http://radarr-ip:port/api -rk 8xxxxxxxxxxxxxxxxc -tk fxxxxxxxxxxxxxxxxxxxxxxxxxx5`
 
 **Arguments explanation**
 
 Slack webhook url, create it on `https://my.slack.com/services/new/incoming-webhook/`
->  -wu https://hooks.slack.com/services/xxx/xxx/xxx 
+
+> -wu https://hooks.slack.com/services/xxx/xxx/xxx
 
 Radarr API endpoint
->  -re http://localhost:8989/api 
+
+> -re http://radarr-ip:port/api
 
 Radarr API key, find it on Radarr > Settings > General
->  -rk 8xxxxxxxxxxxxxxxxc 
+
+> -rk 8xxxxxxxxxxxxxxxxc
 
 TMDB API Key, register app on tmdb to obtain API Key
->  -tk fxxxxxxxxxxxxxxxxxxxxxxxxxx5
 
+> -tk fxxxxxxxxxxxxxxxxxxxxxxxxxx5

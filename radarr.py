@@ -8,6 +8,7 @@ class RadarrApi:
     indexer = ""
     year = ""
     tmdbId = None
+    path = ""
     sizeOnDisk = ""
 
     def __init__(self, baseUrl, apiKey):
@@ -37,6 +38,7 @@ class RadarrApi:
                 self.tmdbId = str(movie.get("tmdbId", ""))
                 size = int(record.get("data", {}).get("size", "0"))
                 self.sizeOnDisk = self.sizeof_fmt(size)
+                self.path = str(movie.get("path", ""))
                 return
         return
 
