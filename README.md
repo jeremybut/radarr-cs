@@ -45,3 +45,7 @@ Radarr API key, find it on Radarr > Settings > General
 TMDB API Key, register app on tmdb to obtain API Key
 
 > -tk fxxxxxxxxxxxxxxxxxxxxxxxxxx5
+
+TMDB parse language
+
+> -lg fr
