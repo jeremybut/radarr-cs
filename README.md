@@ -7,7 +7,7 @@ Radarr-CS is a custom script to send a notification to slack when radarr downloa
 Clone this repo to your local machine using:
 
 ```bash
-git clone https://gitlab.com/buttice.j/radarr-cs.git
+git clone git@github.com:jeremybut/radarr-cs.git
 ```
 
 ## Usage
